@@ -29,13 +29,13 @@ const Chart = () => {
     }, []);
 
   return (
-    <div className="">
+    <div className="screen">
         {isMobile ? <Header1  />:<Header/>}
 
            
           <div style={{marginTop:'60px'}} >
 
-            <div className="" style={{marginTop:'70px'}} >
+            <div className=""  >
                <p> Chart </p>
             </div>
 

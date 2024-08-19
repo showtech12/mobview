@@ -12,12 +12,13 @@ html,body,h1,h2,h3,h4,h5,h6,b,span,div,input,p {
 }
 
 .screen {
-  height: 100vh;
+  height: 90vh;
   padding: 0px 15px
 }
-.pagesTop{
-  margin-top: 10px;
-}
+
+// .pagesTop{
+//   margin-top: 10px;
+// }
 
 .bg-light-color{
   background-color: $lightColor;

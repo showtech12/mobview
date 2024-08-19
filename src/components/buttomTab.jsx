@@ -15,7 +15,7 @@ const ButtomTab = () => {
 
   return (
   //rgb(14 57 65)
-    <nav className="navbar navbar-light bg-info navbar-expand fixed-bottom rounded-top-4 p-3 mx-2" style={{ background: 'linear-gradient(360deg, #ff7e5f, #feb47b)' , fontSize:'14px' }}>
+    <nav className="navbar navbar-light bg-info navbar-expand fixed-bottom rounded-4 p-3 m-3" style={{ background: 'linear-gradient(360deg, #ff7e5f, #feb47b)' , fontSize:'14px' }}>
         
     <div className="container-fluid justify-content-around">
 
