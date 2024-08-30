@@ -6,9 +6,11 @@ const MainBody = () => {
   const sendMessageToReactNative = () =>{
     window.ReactNativeWebView.postMessage('notify');
   }
-const test =()=>{
-  console.log("test")
+
+const MyNofy =()=>{
+  window.ReactNativeWebView.postMessage('myNoti');
 }
+
   return (
           <div className="" style={{marginTop:'50px'}} >
                <p> Home </p>
@@ -16,7 +18,7 @@ const test =()=>{
                <Button variant="success" className="" onClick={sendMessageToReactNative}>  Alert</Button>
               <br/>
               <br/>
-               <Button variant="primary" onClick={test} className=""> Notify  </Button>
+               <Button variant="primary" onClick={MyNofy} className=""> Notify  </Button>
 
             </div>
   )

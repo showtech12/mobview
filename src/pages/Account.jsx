@@ -32,7 +32,7 @@ const Account = () => {
         {isMobile ? <Header1  />:<Header/>}
 
             <div className="" style={{marginTop:'70px'}} >
-               <p> Account </p>
+               <p> Account me  </p>
             </div>
             
 
