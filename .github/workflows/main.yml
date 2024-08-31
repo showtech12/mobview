@@ -8,10 +8,7 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node: [ 16, 18,20 ]
-        name: Node ${{ matrix.node }} sample
+    
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
@@ -23,7 +20,7 @@ jobs:
     - name: Use Node.js 16
       uses: actions/setup-node@v4
       with:
-          node-version: ${{ matrix.node }}
+          node-version: 20
       
     - name: 🔨 Build Project
       run: |
