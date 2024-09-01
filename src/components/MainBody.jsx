@@ -13,7 +13,7 @@ const MyNofy =()=>{
 
   return (
           <div className="" style={{marginTop:'50px'}} >
-               <p> Home </p>
+               <p> Home my home updated </p>
 
                <Button variant="success" className="" onClick={sendMessageToReactNative}>  Alert</Button>
               <br/>

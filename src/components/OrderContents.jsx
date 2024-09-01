@@ -9,8 +9,8 @@ const OrderContents = () => {
             <p> hello </p>
       </div>
       </div>
-      <div className="p-2 ms-auto">Second item</div>
-      <div className="p-2">Third item</div>
+      <div className="p-2 ms-auto">Second item 2</div>
+      <div className="p-2">Third item 2</div>
     </Stack>
   )
 }
