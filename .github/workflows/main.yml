@@ -16,12 +16,15 @@ jobs:
     - name: Use Node.js 20
       uses: actions/setup-node@v4
       with:
-          node-version: 20
+        node-version: 20
       
-    - name: 🔨 Build Project
+    - name: Install Dependencies
       run: |
         npm install
-        npm run build
+    
+    - name: 🔨 Build Project
+      run: |
+        CI=false npm run build
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
